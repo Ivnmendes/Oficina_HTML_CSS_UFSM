@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://goadmedia.com.br/wp-content/uploads/2017/12/Gif-capa.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 200px;
+    color: azure;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}
+
+table, th, td {
+    color: black;
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+/* Muda a cor do texto da ul */
+#listaNaoOrdenada {
+    color: #8a2be2;
+}
+
+/* Muda a cor do fundo da ol */
+#listaOrdenada {
+    background: rgba(255, 255, 0, 0.5);
+}
+
+#imagem {
+    border-width: 10px;
+    border-style: dotted solid;
+    border-radius: 50%;
+    border-color: white black;
+}
