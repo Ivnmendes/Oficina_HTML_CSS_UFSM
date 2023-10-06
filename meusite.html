@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html Lang="en">
 <head>
+  <style>
+    table, th, td {
+      width: 100%;
+      border: 1px solid black;
+    }
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport:" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="meucss.css">
   <title>Título Teste</title>
   <title>Título Teste2</title>
+  <link rel="stylesheet" href="meucss.css">
 </head>
 <body>
+
+  <h1 id="desenhoh1">Teste estilo h1</h1>
   <h1><mark>Isso é um título</mark></h1>
     <p>Olá mundo!</p>
+    <p id="testeMargin">Teste margin padding</p>
   <h2>Titulo 2</h2>
     <p>Olá mundo! <a href="https://google.com">Meu link</a></p>
   <h3>Titulo 3</h3>
     <p>Olá mundo! <a href="https://github.com/Ivnmendes/Oficina_HTML_CSS_UFSM"target="_blank">Meu link 2</a></p>
   <h4>Titulo 4</h4>
-    <img id="imagem" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="Icon github" width="100" height="100" />
+    <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="Icon github" width="100" height="100" />
     <p>Olá mundo!</p><blockquote>"Talvez"<q>"Sim"</q>"Não"</blockquote>
     <p>Testes <abbr title="...">":::"</abbr></p>
   <h5>Titulo 5</h5>
-    <p>Olá mundo!</p>
+    <p id="testeInline">Olá mundo!</p>
     <address>
       Escrito por: Ivan
-      <br>E-mail: ivanmendes2005@gmail.com
+      E-mail: <br>ivanmendes2005@gmail.com
     </address>
   <h6>Uso de citação</h6>
     <p><cite>Citação</p></cite></p>
@@ -36,7 +45,7 @@
         <th>Semestre</th>
       </tr>
       <tr>
-        <td>-</td>
+        <td style="width: 10%; border: 1px black solid">-</td>
         <td>Formais</td>
         <td>Libre</td>
         <td>5</td>
@@ -49,18 +58,35 @@
       </tr>
     </table>
   </div>
+  <div id="divi">
   <h1>Listas</h1>
-    <ul id="listaNaoOrdenada">
+    <ul>
       <li>Monitor</li>
       <li>Mouse</li>
       <li>Teclado</li>
     </ul>
     <caption>Lista Ordenada</caption>
-    <ol id="listaOrdenada" type="I">
+    <ol type="I">
       <li>Monitor</li>
       <li>Mouse</li>
       <li>Teclado</li>
     </ol>
+    <ol type="I">
+      <li>Monitor</li>
+      <li>Mouse</li>
+      <li>Teclado</li>
+    </ol>
+    <ol type="I">
+      <li>Monitor</li>
+      <li>Mouse</li>
+      <li>Teclado</li>
+    </ol>
+    <ol type="I">
+      <li>Monitor</li>
+      <li>Mouse</li>
+      <li>Teclado</li>
+    </ol>
+  </div>
   <h1>iframe</h1>
   <iframe src="https://github.com/Ivnmendes" height="200" width="300" title="github"></iframe>
 

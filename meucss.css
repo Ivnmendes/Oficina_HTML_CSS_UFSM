@@ -18,7 +18,28 @@ table, th, td {
     border: 1px solid black;
 }
 
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
 
+a:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+a:active {
+    background-color: black;
+}
+
+ul {
+    list-style-type: circle;
+}
 /* Muda a cor do texto da ul */
 #listaNaoOrdenada {
     color: #8a2be2;
@@ -34,4 +55,43 @@ table, th, td {
     border-style: dotted solid;
     border-radius: 50%;
     border-color: white black;
+}
+
+#testeMargin {
+    margin: 50px;
+    padding: 30px;
+    padding-bottom: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    vertical-align: text-bottom;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 30px 30px 2px red;
+    border: red 5px solid;  
+    outline: 1px solid black;
+}
+
+#desenhoh1 {
+    color: white;
+    text-shadow: 3px 3px 2px blue;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#testeInline {
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#divi {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
 }
