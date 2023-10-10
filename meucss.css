@@ -40,12 +40,11 @@ a:active {
 ul {
     list-style-type: circle;
 }
-/* Muda a cor do texto da ul */
+
 #listaNaoOrdenada {
     color: #8a2be2;
 }
 
-/* Muda a cor do fundo da ol */
 #listaOrdenada {
     background: rgba(255, 255, 0, 0.5);
 }

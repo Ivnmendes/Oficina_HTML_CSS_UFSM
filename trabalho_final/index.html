@@ -5,13 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/x-icon" href="source/iconepagina.png">
 </head>
 <body>
     <div id="principal">
         <h1 id="nome">Ivan Mendes</h1>
-        <p id="textoDescricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum dicta nihil debitis ea placeat qui nisi alias vero rerum odio deleniti, exercitationem neque dignissimos obcaecati consequuntur! Earum, suscipit esse.</p>
+        <hr style="margin-top: -20px;">
+        <p id="textoDescricao"><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum dicta nihil debitis ea placeat qui nisi alias vero rerum odio deleniti, exercitationem neque dignissimos obcaecati consequuntur! Earum, suscipit esse.</q></p>
+        <a href="index2.html" target="_blank">
         <img src="source/iconeprogramador.png" alt="icone programador" id="iconeProgramador">
+        </a>
         <hr>
+        <div id="competencias">
+            <label for="toggle-3" style="margin-left: 100px;"><b>COMPETÊNCIAS</b></label> 
+            <hr id="hrInformacoes3">
+            <input type="checkbox" id="toggle-3">
+            <div id="informacoes3">
+                <ul>
+                    <li><img src="source/java-icon.svg" alt="java Icon" width="20px" height="20px"><code>  Java</code></li>
+                    <li><img src="source/732212.png" alt="HTML Icon" width="20px" height="20px"><code>  HTML</code></li>
+                    <li><img src="source/download.png" alt="CSS Icon" width="20px" height="20px"><code>  CSS</code></li>
+                    <li><img src="source/iconc++png.png" alt="c++ icon" width="20px" height="20px"><code>  C/C++</code></li>
+                    <li><img src="source/logomark-orange@2x.png" alt="git Icon" width="20px" height="20px"><code>  Git</code></li>
+                </ul>
+            </div>
+        </div>
         <label for="toggle-1"><b>FORMAÇÃO</b></label> 
         <hr id="hrInformacoes">
         <input type="checkbox" id="toggle-1">
@@ -24,13 +42,22 @@
         <label for="toggle-2"><b>EXPERIÊNCIA</b></label> 
         <hr id="hrInformacoes">
         <input type="checkbox" id="toggle-2">
-        <div id="informacoes">
+        <div id="informacoes2">
             <ul>
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos vero provident mollitia quasi. A perspiciatis sint accusamus, fugit libero tempore voluptate mollitia amet eaque! Hic debitis maiores voluptatibus eum.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi id libero corrupti dolorum iure perferendis nam officia, dolores eius labore officiis voluptate expedita repudiandae soluta eligendi placeat ad quidem.</li>
             </ul>
         </div>
-
+        <hr style="border-bottom: 0; margin-top: 10px;">
+        <hr style="margin-top: 150px;">
+        <h2 id="contato"><a href="index2.html" target="_blank">Contato:</a></h2>
+        
+    </div>
+    <div id="botaoSubirPagina">
+        <a href="#principal"><img src="source/iconevoltar.png" alt="icone voltar" width="50px" height="50px"></a>
+    </div>
+    <span id="basedapage">
+        <p><b>2023 &copy</b></p>
     </div>
 </body>
 </html>
