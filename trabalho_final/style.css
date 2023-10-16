@@ -8,7 +8,7 @@ body {
 hr {
     border: none;
     border-bottom: 1px solid gray;
-    margin-top: 300px;
+    margin-top: 150px;
     width: 100%;
 }
 
@@ -29,9 +29,24 @@ a:hover, a:active {
     color: black;
     text-decoration:dotted
 }
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+   border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+   background-color: #f5f5f5;
+}
+
 #barraVertical {
-   display: block;
-   float: inline-end;   
+   display: block;   
    border: none;
    border-right: 4px solid black;
    height: 354px;
@@ -84,7 +99,8 @@ a:hover, a:active {
 }
 
 #iconeProgramador {
-   margin-left: 120px;
+   margin-left: 50px;
+   margin-right: 50px;
    margin-top: 50px;
    width: 300px;
    height: 300px;
@@ -183,6 +199,26 @@ a:hover, a:active {
     cursor: pointer;
 }
 
+#botaoVoltarPagina {
+   position: fixed;
+   bottom: 50px;
+   border: 3px solid white;
+   border-radius: 50%;
+   left: 15px;
+   color: white;
+   cursor: pointer;
+}
+
+#botaoVoltarPaginaPag3 {
+   position: fixed;
+   bottom: 50px;
+   right: 15px;
+   border: 3px solid white;
+   border-radius: 50%;
+   background-color: black;
+   cursor: pointer;
+}
+
 #basedapage {
     -webkit-sticky;
     position: fixed;
@@ -195,6 +231,23 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,46,182,1) 13%, rgb
     height: 40px;
 }
 
+#paginaAvaliacao {
+   background-color: white;
+   background-image: url("imagens/deadpool-heart.gif");
+   background-repeat:no-repeat;
+   background-size:50%;
+}
+
+#textoAgradecer {
+   display: block;
+   float: right;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-right: 50px;
+}
 .icon {
    margin-left: 50px;
    width: 50px;
@@ -203,7 +256,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,46,182,1) 13%, rgb
 }
 
 #icones {
-   margin-left: 476px;
+   margin-left: 346px;
    border-style: dashed;
    width: 360px;
 }
